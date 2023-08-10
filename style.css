@@ -1,0 +1,251 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+#stick{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#Ads{
+    background-color: hsl(24, 98%, 39%);
+    color: white;
+}
+#Login{
+    background-color: white;
+    color:hsl(0, 96%, 29%);
+}
+#Signup{
+    color: white;
+    background-color:hsl(0, 96%, 29%);
+}
+
+#title{
+    margin-top: -10px;
+    margin-bottom: 0px;
+    color: hsl(0, 96%, 29%);
+    background-color: hsl(0, 0%, 90%);
+    font-family: 'VT323', monospace;
+    font-size: 45px;
+}
+.headerbutt{
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    float: right; 
+}
+.navbar{
+    height: 60%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    background-color: hsl(0, 96%, 29%);
+}
+.navbar ul{ 
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+    min-width: 70%;
+}
+.navbar a{
+    padding: 15px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.navbar li{
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 90%);
+    color: black;
+}
+#searchbar{
+    position: absolute;
+    margin: 0px;
+    float: right;
+    left: 80%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.introbar{
+    height: 40%;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(0, 74%, 90%);
+}
+.introbar h2{
+    font-size: 20px;
+}
+#container2{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+#montage{
+    height: 400px;
+    position: relative;
+    width: 100%;
+    background-color: hsl(0, 96%, 29%);
+    background-image: url(images/montage.png);
+    background-blend-mode: multiply;
+} 
+#montage p{
+    color: white;
+    position: relative;
+    top: 35%;
+    left: 10%;
+    font-size: 20px;
+}
+#montage h2{
+    color: white;
+    position: relative;
+    top: 37%;
+    left: 10%;
+    font-size: 35px;
+}
+#signup{
+    background-color:  black;
+    position: absolute;
+    top: 7%;
+    right: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+#signup button{
+    width: 80%;
+    position: relative;
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+button i{
+    position: absolute;
+    top: 13px;
+}
+#apple i{
+    left: 30px;
+}
+#apple{
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+}
+#google{
+    color: black;
+    background-color: white;
+}
+#google i{
+    left: 25px;
+}
+#facebook{
+    background-color: hsl(220, 46%, 48%);
+    color: white;
+}
+#facebook i{
+    left: 15px;
+}
+#twitter{
+    background-color: hsl(198, 74%, 51%);
+    color: white;
+}
+#twitter i{
+    left: 25px;
+}
+#signup p{
+    margin-right: 51px;
+}
+#signup a{
+    margin-bottom: 20px;
+}
+#textcontainer{
+    display: flex;
+    width: 100%;
+}
+#sectioncontainer{
+    width: 75%;
+}
+#asidecontainer{
+    width: 25%; 
+}
+.textbox{
+    background-color: hsl(0, 96%, 90%);
+    border-radius: 15px;
+    margin: 10px;
+}
+.textbox hr{
+    color: black
+}
+.textbox h2{
+    margin: 0px;
+    margin-bottom: -10px;
+    padding: 15px;
+}
+.textbox section{
+    padding: 15px;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    color: white;
+    background-color: hsl(0, 96%, 29%);
+}
+#copyright{
+    padding: 20px;
+    font-size: 17px;
+}
+#icons{
+    margin-right: auto;
+    margin-left: 20px;
+}
+#footernav a{
+    padding: 15px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+#footernav a:hover{
+    color: hsl(240, 83%, 75%);
+}
+#footernav ul{
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+}
+#footer mark{
+    background-color: none
+}
+#footernav li{
+    padding: 3px;
+}
